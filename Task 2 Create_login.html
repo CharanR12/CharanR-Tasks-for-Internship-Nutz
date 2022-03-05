@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>FORMS</title>
+        <style>
+            body{
+                background-color: #eee;
+                margin: 0;
+            }
+            .logos{
+              height: 50px;
+              width: 50px;
+              padding-top: 16px;  
+              padding-bottom: 16px;
+              padding-left: 20px;
+              padding-right: 20px;
+            }
+            .form1{
+                text-align: center;
+                width: 350px;
+                height: 500px;
+                margin-top: 100;
+                margin-left: auto;
+                margin-right: auto;
+                border-color: #ccc;
+                border: 1px solid rgb(175, 175, 175);
+                background-color:white;
+            }
+            .form2{
+                width: 350px;
+                height: 40px;
+                margin-top: 30;
+                margin-left: auto;
+                margin-right: auto;
+                border-color: #ccc;
+                border: 1px solid rgb(175, 175, 175);
+                background-color:white;
+            }
+            .logo-wrap{
+                background-color: #f2f2f6;
+            }
+            .inputbox{
+                background-color:#F0EEEE;
+                padding: 20px;
+                width: 60%;
+                height: 8%;
+                font-size: 15px;
+                border: 2px solid ghostwhite;
+                 margin-bottom: 28px  ;
+                
+            }
+        </style>
+
+    </head>
+
+    <body >
+      
+       <form class = "form1"action="login.php" method="post">
+        <h1 style="font-family: segoe ui;" >Login</h1>
+           <div id=logo-wrap >
+               <img class="logos" src="https://pluspng.com/img-png/google-logo-png-open-2000.png"> </img>
+               <img class="logos" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png"> </img>
+               <img class="logos" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png"> </img>
+
+           </div>
+        <div>
+           <div >
+               <input class="inputbox" type="text" name="name" placeholder="Username" required>
+           </div>
+        
+           <div >
+                <input class="inputbox" type="password" name="password" placeholder="Password" required>
+           </div>
+           
+           <div>
+               <button   style ="  padding: 5px;
+               width: 55%;
+               height: 30px;
+               color: white;
+               font-family: robto;
+               background-color: rgb(191, 239, 255);
+               font-size: 20px;
+               border: 2px solid grey;
+                margin-bottom: 36px  ;" type="submit" value="submit">Log in
+           </div>
+           
+        </div>
+        <div>
+            <span style=""><a href="#">Forgot password?</a></span>
+        </div>
+      
+    
+        </body>
+    </form >
+    <form class = "form2">
+        <div>
+            <a style="margin-left:70px; margin-top: auto;margin-bottom: auto;">Don't have an account? <a  href="#">Sign up</a></a>
+        </div>
+
+    </form>
+</html>

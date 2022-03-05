@@ -13,7 +13,7 @@ gb=mb/1024
 kb=size/1024
 if(mb<1):
     print("Size of the file : {:.2f} KB".format(kb))
-if(mb<1024):
+if(mb>1024):
     print("Size of the file : {:.2f} GB".format(gb))
 else:
     print("Size of the file : {:.2f} MB".format(mb))
